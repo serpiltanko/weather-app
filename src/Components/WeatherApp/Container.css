@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 30px;
+    position: relative;
+    /* Container'ı relative yaparak içindeki absolute positionlu öğeleri kontrol et */
+}
+
+.containerOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 252);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.weatherpic {
+    width: 100%;
+    /* Resmi container genişliğine sığacak şekilde ayarla */
+    height: 100%;
+    /* Resmi container yüksekliğine sığacak şekilde ayarla */
+    border-radius: 10px;
+}
+
+
+.dateArea p {
+    margin: 0;
+    padding: 0;
+}
+
+.topArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.dateArea {
+
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-ellipsis {
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: 15px;
+    justify-self: unset;
+    margin-right: -120px;
+}
+
+.dayNumber {
+    font-size: 11px;
+}
+
+.weatherImg{    
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    /* margin-bottom: ; */
+}
+
+.cityName {
+   
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.weatherTextDesc {
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.footer {
+    width: 180px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.weatherDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+    font-size: 10px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.weatherDetails li {
+    display: inline-block;
+    padding-top: 3px;
+    line-height: 1;
+   
+}
+
+.rates{
+    font-weight: 900;
+}
+
+.ratesFeel{
+    font-weight: 900;
+}
+
